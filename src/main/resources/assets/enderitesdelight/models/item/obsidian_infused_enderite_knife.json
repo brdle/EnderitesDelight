@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "enderitesdelight:item/obsidian_infused_enderite_knife"
+  }
+}

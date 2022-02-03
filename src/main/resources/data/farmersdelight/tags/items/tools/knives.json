@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "coppersdelight:copper_knife"
+    "enderitesdelight:enderite_knife",
+    "enderitesdelight:obsidian_infused_enderite_knife"
   ]
 }

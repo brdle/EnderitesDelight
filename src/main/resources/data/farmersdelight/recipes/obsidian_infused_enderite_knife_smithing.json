@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "enderitesdelight:enderite_knife"
+  },
+  "addition": {
+    "item": "lolenderite:obsidian_infused_enderite_ingot"
+  },
+  "result": {
+    "item": "enderitesdelight:obsidian_infused_enderite_knife"
+  }
+}

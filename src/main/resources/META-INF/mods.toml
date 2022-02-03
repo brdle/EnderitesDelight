@@ -1,40 +1,40 @@
 modLoader="javafml"
 loaderVersion="[39,)"
 license="MIT License"
-issueTrackerURL="https://github.com/onVoid/CoppersDelight/issues"
+issueTrackerURL="https://github.com/onVoid/EnderitesDelight/issues"
 
 
 [[mods]]
-modId="coppersdelight"
+modId="enderitesdelight"
 version="${file.jarVersion}"
-displayName="Copper's Delight"
-displayURL="https://www.curseforge.com/minecraft/mc-mods/coppers-delight"
-updateJSONURL="https://onvoid.net/coppersdelight/update.json"
-logoFile="coppersdelight.png"
+displayName="Enderite's Delight"
+displayURL="https://www.curseforge.com/minecraft/mc-mods/enderites-delight"
+updateJSONURL="https://onvoid.net/enderitesdelight/update.json"
+logoFile="enderitesdelight.png"
 logoBlur=false
 credits="vectorwing - Farmer's Delight creator"
 authors="onVoid"
-description="Adds a Copper Knife to Farmer's Delight."
-itemIcon="coppersdelight:copper_knife"
+description="Adds an Enderite Knife to Farmer's Delight."
+itemIcon="enderitesdelight:enderite_knife"
 configBackground="minecraft:textures/block/bricks.png"
 
-[[dependencies.coppersdelight]]
+[[dependencies.enderitesdelight]]
     modId="forge"
     mandatory=true
     versionRange="[39,)"
     ordering="NONE"
     side="BOTH"
 
-[[dependencies.coppersdelight]]
+[[dependencies.enderitesdelight]]
     modId="farmersdelight"
     mandatory=true
     versionRange="[1.18.1-1.0,]"
     ordering="AFTER"
     side="BOTH"
 
-[[dependencies.coppersdelight]]
-    modId="copperized"
-    mandatory=false
-    versionRange="[0,]"
+[[dependencies.enderitesdelight]]
+    modId="lolenderite"
+    mandatory=true
+    versionRange="[1.3.1-1.18.1,]"
     ordering="AFTER"
     side="BOTH"
