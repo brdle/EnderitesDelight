@@ -1,4 +1,5 @@
-# Copper's Delight
-Adds a Copper Knife to Farmer's Delight.
+# Enderite's Delight
+Adds an Enderite Knife to Farmer's Delight.
+(Also an Obsidian-Infused Enderite Knife)
 
-<img src="https://onvoid.net/coppersdelight/logo.png" height="50px" />
+<img src="https://onvoid.net/enderitesdelight/logo.png" height="50px" />
