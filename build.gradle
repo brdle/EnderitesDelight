@@ -83,7 +83,7 @@ repositories {
 dependencies {
     minecraft "net.minecraftforge:forge:${mc_version}-${forge_version}"
     implementation fg.deobf("curse.maven:farmers-delight-398521:3590226")
-    implementation fg.deobf("curse.maven:enderite-lieonlion-550532:3635043")
+    implementation fg.deobf("curse.maven:enderite-lieonlion-550532:3644832")
     compileOnly fg.deobf("mezz.jei:jei-${mc_version}:${jei_version}:api")
     // at runtime, use the full JEI jar
     runtimeOnly fg.deobf("mezz.jei:jei-${mc_version}:${jei_version}")
