@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "required": false,
+      "id": "enderitemod:enderite_ingot"
+    },
+    {
+      "required": false,
+      "id": "lolenderite:enderite_ingot"
+    }
+  ]
+}

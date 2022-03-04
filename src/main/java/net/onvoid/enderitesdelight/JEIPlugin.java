@@ -6,11 +6,12 @@ import mezz.jei.api.MethodsReturnNonnullByDefault;
 import mezz.jei.api.constants.VanillaTypes;
 import mezz.jei.api.registration.IRecipeRegistration;
 import net.minecraft.client.Minecraft;
-import net.minecraft.resources.ResourceLocation;
-import net.minecraft.world.item.ItemStack;
+import net.minecraft.item.ItemStack;
+import net.minecraft.util.ResourceLocation;
 import net.onvoid.enderitesdelight.common.EnderitesDelightItems;
 import vectorwing.farmersdelight.FarmersDelight;
-import vectorwing.farmersdelight.common.utility.TextUtils;
+import vectorwing.farmersdelight.utils.TextUtils;
+
 import javax.annotation.ParametersAreNonnullByDefault;
 
 @JeiPlugin
@@ -25,7 +26,6 @@ public class JEIPlugin implements IModPlugin
     @Override
     public void registerRecipes(IRecipeRegistration registration) {
         registration.addIngredientInfo(new ItemStack(EnderitesDelightItems.ENDERITE_KNIFE.get()), VanillaTypes.ITEM, TextUtils.getTranslation("jei.info.knife"));
-        registration.addIngredientInfo(new ItemStack(EnderitesDelightItems.OBSIDIAN_INFUSED_ENDERITE_KNIFE.get()), VanillaTypes.ITEM, TextUtils.getTranslation("jei.info.knife"));
     }
 
     @Override

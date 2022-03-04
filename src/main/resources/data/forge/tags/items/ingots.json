@@ -1,6 +1,6 @@
 {
   "replace": false,
   "values": [
-    "enderitesdelight:enderite_knife"
+    "#forge:ingots/enderite"
   ]
 }

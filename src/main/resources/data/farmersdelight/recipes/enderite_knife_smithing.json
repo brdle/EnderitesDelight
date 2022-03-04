@@ -4,7 +4,7 @@
     "item": "farmersdelight:netherite_knife"
   },
   "addition": {
-    "item": "lolenderite:enderite_ingot"
+    "tag": "forge:ingots/enderite"
   },
   "result": {
     "item": "enderitesdelight:enderite_knife"
