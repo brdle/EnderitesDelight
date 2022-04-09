@@ -35,6 +35,6 @@ configBackground="minecraft:textures/block/bricks.png"
 [[dependencies.enderitesdelight]]
     modId="lolenderite"
     mandatory=true
-    versionRange="[1.4.1-1.18.2,]"
+    versionRange="[1.4-1.18.2,]"
     ordering="AFTER"
     side="BOTH"
