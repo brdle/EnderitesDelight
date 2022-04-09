@@ -1,5 +1,5 @@
 modLoader="javafml"
-loaderVersion="[39,)"
+loaderVersion="[40,)"
 license="MIT License"
 issueTrackerURL="https://github.com/onVoid/EnderitesDelight/issues"
 
@@ -13,7 +13,7 @@ updateJSONURL="https://onvoid.net/enderitesdelight/update.json"
 logoFile="enderitesdelight.png"
 logoBlur=false
 credits="vectorwing - Farmer's Delight creator"
-authors="onVoid"
+authors="brdle"
 description="Adds an Enderite Knife to Farmer's Delight."
 itemIcon="enderitesdelight:enderite_knife"
 configBackground="minecraft:textures/block/bricks.png"
@@ -21,20 +21,20 @@ configBackground="minecraft:textures/block/bricks.png"
 [[dependencies.enderitesdelight]]
     modId="forge"
     mandatory=true
-    versionRange="[39,)"
+    versionRange="[40,)"
     ordering="NONE"
     side="BOTH"
 
 [[dependencies.enderitesdelight]]
     modId="farmersdelight"
     mandatory=true
-    versionRange="[1.18.1-1.0,]"
+    versionRange="[1.18.2-1.0.4,]"
     ordering="AFTER"
     side="BOTH"
 
 [[dependencies.enderitesdelight]]
     modId="lolenderite"
     mandatory=true
-    versionRange="[1.3.1-1.18.1,]"
+    versionRange="[1.4.1-1.18.2,]"
     ordering="AFTER"
     side="BOTH"

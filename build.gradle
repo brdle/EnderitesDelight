@@ -82,8 +82,8 @@ repositories {
 
 dependencies {
     minecraft "net.minecraftforge:forge:${mc_version}-${forge_version}"
-    implementation fg.deobf("curse.maven:farmers-delight-398521:3590226")
-    implementation fg.deobf("curse.maven:enderite-lieonlion-550532:3644832")
+    implementation fg.deobf("curse.maven:farmers-delight-398521:${farmers_delight_version}")
+    implementation fg.deobf("curse.maven:enderite-lieonlion-550532:${enderite_version}")
     compileOnly fg.deobf("mezz.jei:jei-${mc_version}:${jei_version}:api")
     // at runtime, use the full JEI jar
     runtimeOnly fg.deobf("mezz.jei:jei-${mc_version}:${jei_version}")
@@ -93,11 +93,11 @@ jar {
     manifest {
         attributes([
                 "Specification-Title"     : "enderitesdelight",
-                "Specification-Vendor"    : "onVoid",
+                "Specification-Vendor"    : "brdle",
                 "Specification-Version"   : "1",
                 "Implementation-Title"    : project.name,
                 "Implementation-Version"  : "${mod_version}",
-                "Implementation-Vendor"   : "onVoid",
+                "Implementation-Vendor"   : "brdle",
                 "Implementation-Timestamp": new Date().format("yyyy-MM-dd'T'HH:mm:ssZ")
         ])
     }
