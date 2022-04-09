@@ -2,7 +2,6 @@ package net.onvoid.enderitesdelight;
 
 import mezz.jei.api.IModPlugin;
 import mezz.jei.api.JeiPlugin;
-import mezz.jei.api.MethodsReturnNonnullByDefault;
 import mezz.jei.api.constants.VanillaTypes;
 import mezz.jei.api.registration.IRecipeRegistration;
 import net.minecraft.client.Minecraft;
@@ -15,7 +14,6 @@ import javax.annotation.ParametersAreNonnullByDefault;
 
 @JeiPlugin
 @ParametersAreNonnullByDefault
-@MethodsReturnNonnullByDefault
 @SuppressWarnings("unused")
 public class JEIPlugin implements IModPlugin
 {
@@ -24,8 +22,8 @@ public class JEIPlugin implements IModPlugin
 
     @Override
     public void registerRecipes(IRecipeRegistration registration) {
-        registration.addIngredientInfo(new ItemStack(EnderitesDelightItems.ENDERITE_KNIFE.get()), VanillaTypes.ITEM, TextUtils.getTranslation("jei.info.knife"));
-        registration.addIngredientInfo(new ItemStack(EnderitesDelightItems.OBSIDIAN_INFUSED_ENDERITE_KNIFE.get()), VanillaTypes.ITEM, TextUtils.getTranslation("jei.info.knife"));
+        registration.addIngredientInfo(new ItemStack(EnderitesDelightItems.ENDERITE_KNIFE.get()), VanillaTypes.ITEM_STACK, TextUtils.getTranslation("jei.info.knife"));
+        registration.addIngredientInfo(new ItemStack(EnderitesDelightItems.OBSIDIAN_INFUSED_ENDERITE_KNIFE.get()), VanillaTypes.ITEM_STACK, TextUtils.getTranslation("jei.info.knife"));
     }
 
     @Override
